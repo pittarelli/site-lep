@@ -1,0 +1,8 @@
+<section class="section">
+  <h2>Clientes Satisfeitos</h2>
+  <div class="services">
+    <img src="cliente1.png" alt="Cliente 1" style="height: 60px;">
+    <img src="cliente2.png" alt="Cliente 2" style="height: 60px;">
+    <img src="cliente3.png" alt="Cliente 3" style="height: 60px;">
+  </div>
+</section>

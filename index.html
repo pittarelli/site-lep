@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lep Tecnologia Cloud</title>
+  <style>
+    :root {
+      --primary-color: #ff6600; /* Laranja chamativo */
+      --text-color: #1a1a1a; /* Preto suave */
+      --background-color: #f9f9f9;
+      --accent-color: #333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--background-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--primary-color);
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header img {
+      max-height: 60px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background-color: var(--accent-color);
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #ff6600, #ffaa00);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: var(--primary-color);
+      margin-bottom: 20px;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .service {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      width: 280px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: var(--accent-color);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo da empresa">
+    <h1>Lep Tecnologia Cloud</h1>
+  </header>
+
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Especialistas em Manutenção de Computadores, Redes e Backup em Nuvem</h1>
+    <p>Segurança, confiabilidade e atendimento rápido para sua empresa.</p>
+  </section>
+
+  <section class="section" id="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Manutenção de Computadores</h3>
+        <p>Correção de falhas, formatação, upgrades e otimização do sistema.</p>
+      </div>
+      <div class="service">
+        <h3>Redes e Infraestrutura</h3>
+        <p>Configuração de redes cabeadas e Wi-Fi, roteadores, switches e firewall.</p>
+      </div>
+      <div class="service">
+        <h3>Backup em Nuvem</h3>
+        <p>Soluções seguras em nuvem para proteger os dados da sua empresa.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Entre em contato pelo WhatsApp: <strong>(XX) XXXXX-XXXX</strong></p>
+    <p>Email: <strong>contato@leptecnologiacloud.com.br</strong></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Lep Tecnologia Cloud. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
